@@ -7,7 +7,7 @@ The documentation is addressed to the administrative staff of the website.
 The aim of this route is to admnistrate the website. It has all the operations over the
 accidents from the database
 
-(`CR`-creation, `U` - update, `D` - delete ).
+(`C`-creation, `R`- read, `U` - update, `D` - delete ).
 
 In order to use this route you need an authorization token which can be obtained after
 registration is done successfuly at route: `POST $HOST/api/users`. The registration part
